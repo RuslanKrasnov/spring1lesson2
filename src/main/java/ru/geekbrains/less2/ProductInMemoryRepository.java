@@ -9,7 +9,6 @@ import java.util.Arrays;
 import java.util.List;
 
 @Component
-@Primary
 public class ProductInMemoryRepository implements Repository{
 
     private List<Product> productList;

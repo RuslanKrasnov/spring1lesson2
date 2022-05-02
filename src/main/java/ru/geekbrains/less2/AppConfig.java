@@ -14,11 +14,6 @@ import java.util.HashMap;
 public class AppConfig {
 
     @Bean
-    public FileOutputStream fileOut() throws FileNotFoundException {
-        return new FileOutputStream("1.txt");
-    }
-
-    @Bean
     @Scope("prototype")
     public HashMap<Product, Integer> hashMap() {
         return new HashMap<>();
